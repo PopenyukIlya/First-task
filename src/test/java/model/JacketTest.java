@@ -1,8 +1,6 @@
-package controller.DAO;
+package model;
 
-import model.Ammunition;
-import model.Helmet;
-import model.Jacket;
+import controller.DAO.ReadAmmunicionFromCheckList;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +10,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class ReadJacketFromFileTest {
+public class JacketTest {
     List<Jacket> listOfJackets1 = new ArrayList<Jacket>(4);
     List<Jacket> listOfJackets = new ArrayList<Jacket>(4);
 
@@ -23,19 +21,18 @@ public class ReadJacketFromFileTest {
     List<Ammunition> listOfAmmunition = new ArrayList<Ammunition>(4);
     List<Ammunition> listOfAmmunition1 = new ArrayList<Ammunition>(4);
 
-    public ReadJacketFromFileTest() throws FileNotFoundException {
+    public JacketTest() throws FileNotFoundException {
     }
 
     @Test
-    public void readAmmunitionFromFile() throws FileNotFoundException {
-        ReadJacketFromFile file=new ReadJacketFromFile();
+    public void readJacket() throws FileNotFoundException {
+       Jacket jacket=new Jacket();
+
         listOfJackets1.add(ammunition);
         listOfJackets1.add(ammunition1);
         listOfAmmunition.addAll(listOfJackets1);
-        listOfJackets=file.readAmmunitionFromFile(path);
-        listOfAmmunition1.addAll(listOfJackets);
         String actual= String.valueOf(listOfAmmunition);
-        String expected=String.valueOf(listOfAmmunition1);
+        String expected=String.valueOf(jacket.readJacket(path));
         Assert.assertEquals(actual,expected);
     }
 }

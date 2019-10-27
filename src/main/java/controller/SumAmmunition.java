@@ -16,7 +16,8 @@ public class SumAmmunition extends ReadAmmunicionFromCheckList {
 
     final Logger logger = LogManager.getLogger(SumAmmunition.class);
 
-    public SumAmmunition() throws FileNotFoundException {
+    public SumAmmunition()  {
+        super();
     }
 
     public double sumAmmunition() throws FileNotFoundException {

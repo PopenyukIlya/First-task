@@ -38,10 +38,13 @@ public class Controller extends Ammunition {
                 System.exit(0);
                 break;
         } }else {
-            System.out.println("Incorrect choose, try it again!");
+            System.out.println("Неверный выбор, попробуйте снова");
             view.mainMenu();
         }
     }
+
+
+
 
     public void chooseMenuAmmunitionController(int choice) throws FileNotFoundException {
         View view=new View();
@@ -63,7 +66,7 @@ public class Controller extends Ammunition {
                 view.mainMenu();
                 break;
         }}else {
-            System.out.println("Incorrect choose, try it again!");
+                System.out.println("Неверный выбор, попробуйте снова");
                 view.mainMenu();
             }
     }
@@ -88,7 +91,7 @@ public class Controller extends Ammunition {
                 view.mainMenu();
                 break;
         }}else {
-            System.out.println("Incorrect choose, try it again!");
+            System.out.println("Неверный выбор, попробуйте снова");
             view.mainMenu();
         }
     }
@@ -112,7 +115,7 @@ public class Controller extends Ammunition {
                 view.mainMenu();
                 break;
         }}else {
-            System.out.println("Incorrect choose, try it again!");
+            System.out.println("Неверный выбор, попробуйте снова");
             view.mainMenu();
         }
     }

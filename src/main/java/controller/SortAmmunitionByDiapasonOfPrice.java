@@ -14,7 +14,7 @@ public class SortAmmunitionByDiapasonOfPrice extends Ammunition {
     private int bottomLimit;
     private int topLimit;
 
-    public SortAmmunitionByDiapasonOfPrice() throws FileNotFoundException {
+    public SortAmmunitionByDiapasonOfPrice() {
     }
 
     public List<Ammunition> sortAmmunitionByDiapasonOfPrice(List<Ammunition> listOfAmmunition) throws FileNotFoundException {
@@ -41,6 +41,8 @@ public class SortAmmunitionByDiapasonOfPrice extends Ammunition {
 }logger.debug("What in this diapasone= "+result);
         return result;
     }
+
+
     public List<Ammunition> sortAmmunitionByDiapasonOfPrice(List<Ammunition> listOfAmmunition,int bottomLimit,int topLimit ) throws FileNotFoundException {
         List<Ammunition> result = new ArrayList<>();
         for (Ammunition ammunition : listOfAmmunition) {

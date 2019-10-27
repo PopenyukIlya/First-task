@@ -20,6 +20,7 @@ public class SumAmmunitionTest {
     Ammunition ammunition1=new Ammunition("jvwber1r23",750.0,1200,"3+" );
     String path="src\\test\\resources\\Checklist.txt";
 
+
     public SumAmmunitionTest() throws FileNotFoundException {
     }
 
@@ -28,9 +29,10 @@ public class SumAmmunitionTest {
         listOfAmmunition1.add(ammunition);
         listOfAmmunition1.add(ammunition1);
         listOfAmmunition=fromCheckList.readAmmunitionFromFile(path);
-        List<Ammunition> actual= listOfAmmunition;
-        List<Ammunition> expected=listOfAmmunition1;
+        String actual= String.valueOf(listOfAmmunition);
+        String expected=String.valueOf(listOfAmmunition1);
         Assert.assertEquals(expected,actual);
+
     }
 
     @Test
@@ -44,9 +46,10 @@ public class SumAmmunitionTest {
     @Test
     public void sumAmmunation() throws FileNotFoundException {
         listOfAmmunition1.clear();
+
         listOfAmmunition1.add(ammunition);
         listOfAmmunition1.add(ammunition1);
-        double actual=sumAmmunition.sumAmmunation(listOfAmmunition1);
+        double actual=sumAmmunition.sumAmmunation(fromCheckList.readAmmunitionFromFile(path));
         double expected=1270.0;
         assertTrue(actual==expected);
     }

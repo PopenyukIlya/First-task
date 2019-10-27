@@ -11,7 +11,7 @@ public class ReadHelmetsFromFile extends Helmet {
     public ReadHelmetsFromFile() throws FileNotFoundException {
     }
     final Logger logger = LogManager.getLogger(ReadHelmetsFromFile.class);
-    public List<Helmet> readAmmunitionFromFile(String path) throws FileNotFoundException {
+    public List<Helmet> readAmmunitionFromFile(String path) {
         listOfHelmets.clear();
         logger.trace("read Helmets From File");
         logger.debug("Path of file"+path);

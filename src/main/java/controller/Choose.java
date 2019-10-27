@@ -1,7 +1,6 @@
 package controller;
 
 import model.Ammunition;
-import model.Boots;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import view.View;
@@ -26,18 +25,16 @@ public class Choose extends Ammunition {
         logger.debug("List in choose"+listOfAmmunition);
         if(listOfAmmunition.size()==0){logger.error("Clean list of all Ammun");}
         for (int i=0;i<listOfAmmunition.size();i++){
-            System.out.println(listOfAmmunition.get(i));
+            System.out.println("("+(i+1)+")"+listOfAmmunition.get(i));
         }
         Scanner scanner=new Scanner(System.in);
         int index=scanner.nextInt();
 
         if (index==0||index-1>=listOfAmmunition.size()){
-         logger.error( "wrong choice Ammun");
+            logger.error( "wrong choice Ammun");
             System.out.println("Wrong choice,try choose again");
             view.mainMenu();
         }
-
-
         else {
             q=index-1;
             System.out.println(listOfAmmunition.get(q));
@@ -60,8 +57,6 @@ public class Choose extends Ammunition {
     }
 
     public Ammunition chooseAmmunition(List<Ammunition> listOfAmmunition,int q) throws FileNotFoundException {
-
         return listOfAmmunition.get(q-1);
     }
-
 }

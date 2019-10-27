@@ -11,11 +11,14 @@ public class ReadAmmunicionFromCheckList extends Ammunition {
     private List<Ammunition> listOfAmmunition = new ArrayList<Ammunition>(4);
     final Logger logger = LogManager.getLogger(ReadAmmunicionFromCheckList.class);
 
-    public ReadAmmunicionFromCheckList() throws FileNotFoundException {
-        super();
+    public ReadAmmunicionFromCheckList(String name, double price, int weight, String atribute) {
+        super(name, price, weight, atribute);
     }
 
-    public List<Ammunition> readAmmunitionFromFile(String path) throws FileNotFoundException {
+    public ReadAmmunicionFromCheckList() {
+    }
+
+    public List<Ammunition> readAmmunitionFromFile(String path) {
         listOfAmmunition.clear();
         logger.trace("read Ammunition From Check list");
         logger.debug("Path of file"+path);
@@ -40,5 +43,4 @@ public class ReadAmmunicionFromCheckList extends Ammunition {
         logger.debug("List from file"+listOfAmmunition);
         return listOfAmmunition;
     }
-
 }

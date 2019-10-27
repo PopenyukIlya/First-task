@@ -3,13 +3,16 @@ package view;
 import controller.Controller;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+
 
 public class View extends Controller {
     public Scanner scanner = new Scanner(System.in);
     private int choice;
     Logger logger = LogManager.getLogger(View.class);
+
 
     public View() throws FileNotFoundException {
     }

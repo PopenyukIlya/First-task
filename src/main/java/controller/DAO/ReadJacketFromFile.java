@@ -12,7 +12,7 @@ public class ReadJacketFromFile extends Jacket {
     public ReadJacketFromFile() throws FileNotFoundException {
     }
     final Logger logger = LogManager.getLogger(ReadJacketFromFile.class);
-    public List<Jacket> readAmmunitionFromFile(String path) throws FileNotFoundException {
+    public List<Jacket> readAmmunitionFromFile(String path) {
         listOfJackets.clear();
         logger.trace("Read jackets From File");
         logger.debug("Path of file"+path);

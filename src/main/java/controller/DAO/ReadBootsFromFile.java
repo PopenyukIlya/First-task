@@ -13,7 +13,7 @@ public class ReadBootsFromFile extends Boots {
     }
     final Logger logger = LogManager.getLogger(ReadBootsFromFile.class);
 
-    public List<Boots> readAmmunitionFromFile(String path) throws FileNotFoundException {
+    public List<Boots> readAmmunitionFromFile(String path) {
         listOfBoots.clear();
         logger.trace("Read boots From File");
         logger.debug("Path of file"+path);

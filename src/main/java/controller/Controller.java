@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 
 public class Controller extends Ammunition {
 
-    public Controller() throws FileNotFoundException {
+    public Controller() {
     }
 
     public void mainMenuController(int choice) throws FileNotFoundException {
@@ -38,12 +38,10 @@ public class Controller extends Ammunition {
                 System.exit(0);
                 break;
         } }else {
-            System.out.println("Неверный выбор, попробуйте снова");
+            System.out.println("Incorrect choose, try it again!");
             view.mainMenu();
         }
     }
-
-
 
 
     public void chooseMenuAmmunitionController(int choice) throws FileNotFoundException {
@@ -66,7 +64,7 @@ public class Controller extends Ammunition {
                 view.mainMenu();
                 break;
         }}else {
-                System.out.println("Неверный выбор, попробуйте снова");
+            System.out.println("Incorrect choose, try it again!");
                 view.mainMenu();
             }
     }
@@ -91,7 +89,7 @@ public class Controller extends Ammunition {
                 view.mainMenu();
                 break;
         }}else {
-            System.out.println("Неверный выбор, попробуйте снова");
+            System.out.println("Incorrect choose, try it again!");
             view.mainMenu();
         }
     }
@@ -115,7 +113,7 @@ public class Controller extends Ammunition {
                 view.mainMenu();
                 break;
         }}else {
-            System.out.println("Неверный выбор, попробуйте снова");
+            System.out.println("Incorrect choose, try it again!");
             view.mainMenu();
         }
     }

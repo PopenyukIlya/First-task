@@ -38,7 +38,7 @@ public class View extends Controller {
         System.out.println("2. Jacket");
         System.out.println("3. Boots");
         System.out.println("4. All ammunition");
-        System.out.println("0. Quit");
+        System.out.println("0. Main menu");
         choice=scanner.nextInt();
         chooseMenuAmmunitionController(choice);
     }
@@ -48,7 +48,7 @@ public class View extends Controller {
         System.out.println("2. Jacket");
         System.out.println("3. Boots");
         System.out.println("4. All ammunition");
-        System.out.println("0. Quit");
+        System.out.println("0. Main menu");
         choice=scanner.nextInt();
         sortMenuAmmunitionController(choice);
     }
@@ -58,7 +58,7 @@ public class View extends Controller {
         System.out.println("2. Jacket");
         System.out.println("3. Boots");
         System.out.println("4. All ammunition");
-        System.out.println("0. Quit");
+        System.out.println("0. Main menu");
         choice=scanner.nextInt();
        sortAmmunitionByDiapasonOfPriceController(choice);
     }

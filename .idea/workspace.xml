@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1cf3f5-9940-48ee-ab61-a2ca3c908c45" name="Default Changelist" comment="" />
+    <list default="true" id="fe1cf3f5-9940-48ee-ab61-a2ca3c908c45" name="Default Changelist" comment="translated msgs in view/clean up">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/appDebug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/appDebug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadBootsFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadBootsFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadHelmetsFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadHelmetsFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadJacketFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadJacketFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SortAmmunition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SortAmmunition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Boots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Boots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Helmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Helmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Jacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Jacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +29,9 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -165,10 +181,26 @@
       <workItem from="1572181318259" duration="8622000" />
       <workItem from="1572195073389" duration="1457000" />
       <workItem from="1572201636579" duration="6033000" />
+      <workItem from="1572208000856" duration="634000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="translated msgs in view/clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="translated msgs in view/clean up" />
   </component>
 </project>

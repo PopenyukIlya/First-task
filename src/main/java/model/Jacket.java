@@ -3,8 +3,6 @@ package model;
 import controller.DAO.ReadJacketFromFile;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,21 +12,21 @@ public class Jacket extends Ammunition {
     private String levelOfProtection;
     private String path="src\\main\\resources\\Jacket.txt";
     final Logger logger = LogManager.getLogger(Jacket.class);
-    public Jacket(String name, double price, int weight,String levelOfProtection) throws FileNotFoundException {
+    public Jacket(String name, double price, int weight,String levelOfProtection)  {
         super(name, price, weight);
         this.levelOfProtection = levelOfProtection;
     }
 
     public Jacket()  {   }
 
-    public List<Jacket> readJacket() throws FileNotFoundException {
+    public List<Jacket> readJacket()  {
         logger.trace("readJacket");
         ReadJacketFromFile readJacketFromFile=new ReadJacketFromFile();
          List<Jacket> listOfJackets = readJacketFromFile.readAmmunitionFromFile(path);
          logger.debug("List of boots from file"+listOfJackets);
          return listOfJackets;
     }
-    public List<Jacket> readJacket(String path) throws FileNotFoundException {
+    public List<Jacket> readJacket(String path)  {
         logger.trace("readJacket for test");
         ReadJacketFromFile readJacketFromFile=new ReadJacketFromFile();
         List<Jacket> listOfJackets = readJacketFromFile.readAmmunitionFromFile(path);

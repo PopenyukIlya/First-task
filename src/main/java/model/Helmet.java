@@ -3,8 +3,6 @@ package model;
 import controller.DAO.ReadHelmetsFromFile;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,21 +12,21 @@ public class Helmet extends Ammunition {
     private String color;
     private String path="src\\main\\resources\\Hemlet.txt";
     final Logger logger = LogManager.getLogger(Helmet.class);
-    public Helmet(String name, double price, int weight, String color) throws FileNotFoundException {
+    public Helmet(String name, double price, int weight, String color)  {
         super(name, price, weight);
         this.color = color;
     }
 
     public Helmet()  {         }
 
-    public List<Helmet> readHemlet() throws FileNotFoundException {
+    public List<Helmet> readHemlet()  {
         logger.trace("readHemlet");
         ReadHelmetsFromFile readHelmetsFromFile =new ReadHelmetsFromFile();
         List<Helmet> listOfHelmets = readHelmetsFromFile.readAmmunitionFromFile(path);
         logger.debug("List of helmets from file"+listOfHelmets);
         return listOfHelmets;
     }
-    public List<Helmet> readHemlet(String path) throws FileNotFoundException {
+    public List<Helmet> readHemlet(String path)  {
         logger.trace("readHemlet for test");
         ReadHelmetsFromFile readHelmetsFromFile =new ReadHelmetsFromFile();
         List<Helmet> listOfHelmets = readHelmetsFromFile.readAmmunitionFromFile(path);

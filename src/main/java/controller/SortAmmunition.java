@@ -2,9 +2,7 @@ package controller;
 
 import model.Ammunition;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import java.io.FileNotFoundException;
+import org.apache.logging.log4j.Logger;;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;

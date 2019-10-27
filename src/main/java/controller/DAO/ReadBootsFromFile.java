@@ -3,13 +3,12 @@ package controller.DAO;
 import model.Boots;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.*;
 import java.util.List;
 
 public class ReadBootsFromFile extends Boots {
 
-    public ReadBootsFromFile() throws FileNotFoundException {
+    public ReadBootsFromFile()  {
     }
     final Logger logger = LogManager.getLogger(ReadBootsFromFile.class);
 

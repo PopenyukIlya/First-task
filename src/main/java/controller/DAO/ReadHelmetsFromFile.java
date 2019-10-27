@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ReadHelmetsFromFile extends Helmet {
 
-    public ReadHelmetsFromFile() throws FileNotFoundException {
+    public ReadHelmetsFromFile()  {
     }
     final Logger logger = LogManager.getLogger(ReadHelmetsFromFile.class);
     public List<Helmet> readAmmunitionFromFile(String path) {

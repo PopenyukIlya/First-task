@@ -3,13 +3,12 @@ package controller.DAO;
 import model.Jacket;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.*;
 import java.util.List;
 
 public class ReadJacketFromFile extends Jacket {
 
-    public ReadJacketFromFile() throws FileNotFoundException {
+    public ReadJacketFromFile()  {
     }
     final Logger logger = LogManager.getLogger(ReadJacketFromFile.class);
     public List<Jacket> readAmmunitionFromFile(String path) {

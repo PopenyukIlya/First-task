@@ -50,8 +50,6 @@ public class View extends Controller {
         sortMenuAmmunitionController(choice);
     }
 
-//comment for test gitBush
-
     public void sortAmmunitionByDiapasonOfPrice() throws FileNotFoundException {
         System.out.println("1. Helmet");
         System.out.println("2. Jacket");

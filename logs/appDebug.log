@@ -813,3 +813,245 @@
 2019-10-27 23:37:43,498 DEBUG c.SortAmmunitionByDiapasonOfPrice [main] Min limit= 200
 2019-10-27 23:37:44,758 DEBUG c.SortAmmunitionByDiapasonOfPrice [main] Max limit= 230
 2019-10-27 23:37:47,236 DEBUG c.SumAmmunition [main] clear Check List
+2019-10-28 10:00:25,128 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:00:25,136 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:01:42,333 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:01:42,336 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:03:15,802 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:03:15,805 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:04:23,501 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:04:23,505 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:06:01,793 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:06:01,920 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:06:01,948 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:07:52,357 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:07:52,363 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:08:25,980 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:08:25,996 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:08:26,013 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:08:31,615 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:08:31,631 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:08:31,645 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:11:30,089 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\ForChooseCheckList.txt
+2019-10-28 10:11:36,628 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\ForChooseCheckList.txt
+2019-10-28 10:12:47,405 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\ForChooseCheckList.txt
+2019-10-28 10:13:35,034 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:14:38,810 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:14:38,831 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:14:38,850 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:15:43,346 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:15:43,416 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:16:20,742 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:16:20,756 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:16:52,036 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:16:52,050 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:16:52,064 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:16:52,064 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:16:52,064 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:17:19,869 DEBUG c.Choose [main] Choose0Choosed amunBoots{size='green', name='hcvwq23', price=520.0, weight=2250}
+2019-10-28 10:17:19,882 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='vasav', price=120.0, weight=270, atribute='what '}
+2019-10-28 10:17:20,015 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='vasav', price=120.0, weight=270, atribute='what '}
+2019-10-28 10:17:20,028 DEBUG c.SortAmmunition [main] Sorted list= [Hemlet{color='what ', name='koasflya', price=10.0, weight=100}, Hemlet{color='what ', name='wora', price=170.0, weight=170}, Hemlet{color='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,029 DEBUG c.SortAmmunition [main] Sorted list= [Jacket{levelOfProtection='what ', name='koasflya', price=10.0, weight=100}, Jacket{levelOfProtection='what ', name='wora', price=170.0, weight=170}, Jacket{levelOfProtection='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,030 DEBUG c.SortAmmunition [main] Sorted list= [Boots{size='what ', name='koasflya', price=10.0, weight=100}, Boots{size='what ', name='wora', price=170.0, weight=170}, Boots{size='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,031 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:17:20,039 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='vasav', price=120.0, weight=270, atribute='what '}
+2019-10-28 10:17:20,040 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,041 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,050 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:17:20,050 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='greenhcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:17:20,072 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='greenhcvwq23'}
+2019-10-28 10:17:20,080 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:17:20,081 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='greenhcvwq23'}]
+2019-10-28 10:17:20,082 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,084 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,085 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:17:20,088 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,089 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,092 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:17:20,093 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:17:20,093 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,094 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='greenhcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:17:20,095 DEBUG c.SumAmmunition [main] Check list[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='greenhcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:17:20,098 DEBUG c.SumAmmunition [main] Sum880.0
+2019-10-28 10:17:20,101 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,101 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='greenhcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:17:20,105 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,106 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,106 DEBUG m.Helmet [main] List of helmets from file[Hemlet{color='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,110 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,111 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,111 DEBUG m.Boots [main] List of boots from file[Boots{size='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,114 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,114 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,117 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,118 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,118 DEBUG m.Jacket [main] List of boots from file[Jacket{levelOfProtection='greenhcvwq23', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:17:20,120 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:17:20,121 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='greenhcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:19:11,262 DEBUG c.Choose [main] Choose0Choosed amunBoots{size='green', name='hcvwq23', price=520.0, weight=2250}
+2019-10-28 10:19:11,277 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='vasav', price=120.0, weight=270, atribute='what '}
+2019-10-28 10:19:11,281 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='vasav', price=120.0, weight=270, atribute='what '}
+2019-10-28 10:19:11,285 DEBUG c.SortAmmunition [main] Sorted list= [Hemlet{color='what ', name='koasflya', price=10.0, weight=100}, Hemlet{color='what ', name='wora', price=170.0, weight=170}, Hemlet{color='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,287 DEBUG c.SortAmmunition [main] Sorted list= [Jacket{levelOfProtection='what ', name='koasflya', price=10.0, weight=100}, Jacket{levelOfProtection='what ', name='wora', price=170.0, weight=170}, Jacket{levelOfProtection='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,288 DEBUG c.SortAmmunition [main] Sorted list= [Boots{size='what ', name='koasflya', price=10.0, weight=100}, Boots{size='what ', name='wora', price=170.0, weight=170}, Boots{size='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,289 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:19:11,296 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='vasav', price=120.0, weight=270, atribute='what '}
+2019-10-28 10:19:11,297 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,298 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,309 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:19:11,311 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='3+hcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:19:11,313 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:19:11,313 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:19:11,314 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:19:11,318 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,318 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,322 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:19:11,323 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,325 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,328 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:19:11,328 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:19:11,329 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,330 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='3+hcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:19:11,331 DEBUG c.SumAmmunition [main] Check list[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='3+hcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:19:11,334 DEBUG c.SumAmmunition [main] Sum1400.0
+2019-10-28 10:19:11,337 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,337 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='3+hcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:19:11,341 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,341 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,342 DEBUG m.Helmet [main] List of helmets from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,345 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,346 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,346 DEBUG m.Boots [main] List of boots from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}, Boots{size='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,349 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,349 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}, Hemlet{color='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,352 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,353 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,354 DEBUG m.Jacket [main] List of boots from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+hcvwq23', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}, Jacket{levelOfProtection='what', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:19:11,356 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:19:11,356 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='3+hcvwq23'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what'}]
+2019-10-28 10:20:58,331 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:20:58,347 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='hcvwq23', price=520.0, weight=2250}]
+2019-10-28 10:21:28,660 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:21:28,674 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,828 DEBUG c.SortAmmunition [main] Sorted list= [Hemlet{color='what ', name='koasflya', price=10.0, weight=100}, Hemlet{color='what ', name='wora', price=170.0, weight=170}, Hemlet{color='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:22:15,831 DEBUG c.SortAmmunition [main] Sorted list= [Jacket{levelOfProtection='what ', name='koasflya', price=10.0, weight=100}, Jacket{levelOfProtection='what ', name='wora', price=170.0, weight=170}, Jacket{levelOfProtection='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:22:15,833 DEBUG c.SortAmmunition [main] Sorted list= [Boots{size='what ', name='koasflya', price=10.0, weight=100}, Boots{size='what ', name='wora', price=170.0, weight=170}, Boots{size='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:22:15,839 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:22:15,843 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,843 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,847 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:22:15,848 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=720.0, weight=2250, atribute='3+'}]
+2019-10-28 10:22:15,859 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:22:15,861 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:22:15,861 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:22:15,869 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,870 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,873 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:22:15,875 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,876 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,880 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:22:15,880 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:22:15,881 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,882 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=720.0, weight=2250, atribute='3+'}]
+2019-10-28 10:22:15,883 DEBUG c.SumAmmunition [main] Check list[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=720.0, weight=2250, atribute='3+'}]
+2019-10-28 10:22:15,886 DEBUG c.SumAmmunition [main] Sum1240.0
+2019-10-28 10:22:15,886 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,890 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=720.0, weight=2250, atribute='3+'}]
+2019-10-28 10:22:15,894 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,895 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,895 DEBUG m.Helmet [main] List of helmets from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,898 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,899 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,899 DEBUG m.Boots [main] List of boots from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,902 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,903 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,905 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,906 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,906 DEBUG m.Jacket [main] List of boots from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='hcvwq23', price=720.0, weight=2250}]
+2019-10-28 10:22:15,908 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:22:15,909 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=720.0, weight=2250, atribute='3+'}]
+2019-10-28 10:23:53,466 DEBUG c.SortAmmunition [main] Sorted list= [Hemlet{color='what ', name='koasflya', price=10.0, weight=100}, Hemlet{color='what ', name='wora', price=170.0, weight=170}, Hemlet{color='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:23:53,469 DEBUG c.SortAmmunition [main] Sorted list= [Jacket{levelOfProtection='what ', name='koasflya', price=10.0, weight=100}, Jacket{levelOfProtection='what', name='wora', price=170.0, weight=170}, Jacket{levelOfProtection='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:23:53,470 DEBUG c.SortAmmunition [main] Sorted list= [Boots{size='what ', name='koasflya', price=10.0, weight=100}, Boots{size='what ', name='wora', price=170.0, weight=170}, Boots{size='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:23:53,478 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:23:53,480 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,482 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,484 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:23:53,485 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:23:53,497 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:23:53,498 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:23:53,498 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:23:53,507 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,507 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,510 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:23:53,512 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,512 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,515 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:23:53,515 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:23:53,516 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,516 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:23:53,516 DEBUG c.SumAmmunition [main] Check list[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:23:53,520 DEBUG c.SumAmmunition [main] Sum1270.0
+2019-10-28 10:23:53,521 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,521 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:23:53,523 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,524 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,524 DEBUG m.Helmet [main] List of helmets from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,525 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,526 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,526 DEBUG m.Boots [main] List of boots from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,528 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,528 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,530 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,531 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,531 DEBUG m.Jacket [main] List of boots from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:23:53,533 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:23:53,534 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:24:18,395 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:24:18,411 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:24:18,424 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:24:56,707 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:24:56,724 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:25:08,068 DEBUG c.SortAmmunition [main] Sorted list= [Hemlet{color='what ', name='koasflya', price=10.0, weight=100}, Hemlet{color='what ', name='wora', price=170.0, weight=170}, Hemlet{color='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:25:08,072 DEBUG c.SortAmmunition [main] Sorted list= [Jacket{levelOfProtection='what ', name='koasflya', price=10.0, weight=100}, Jacket{levelOfProtection='what', name='wora', price=170.0, weight=170}, Jacket{levelOfProtection='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:25:08,074 DEBUG c.SortAmmunition [main] Sorted list= [Boots{size='what ', name='koasflya', price=10.0, weight=100}, Boots{size='what ', name='wora', price=170.0, weight=170}, Boots{size='what ', name='vasav', price=120.0, weight=270}]
+2019-10-28 10:25:08,083 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:25:08,086 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,087 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,090 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:25:08,091 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:25:08,103 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:25:08,103 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:25:08,103 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]
+2019-10-28 10:25:08,112 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,113 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,114 DEBUG c.SortAmmunition [main] Sorted list= [Ammunition{name='koasflya', price=10.0, weight=100, atribute='what '}, Ammunition{name='wora', price=170.0, weight=170, atribute='what '}, Ammunition{name='vasav', price=120.0, weight=270, atribute='what '}]
+2019-10-28 10:25:08,116 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,117 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,119 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Clear.txt
+2019-10-28 10:25:08,119 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[]
+2019-10-28 10:25:08,120 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,120 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:25:08,120 DEBUG c.SumAmmunition [main] Check list[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:25:08,124 DEBUG c.SumAmmunition [main] Sum1270.0
+2019-10-28 10:25:08,125 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,126 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:25:08,127 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,128 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,129 DEBUG m.Helmet [main] List of helmets from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,130 DEBUG c.D.ReadBootsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,131 DEBUG c.D.ReadBootsFromFile [main] List from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,131 DEBUG m.Boots [main] List of boots from file[Boots{size='green', name='hcvwq23', price=520.0, weight=2250}, Boots{size='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,133 DEBUG c.D.ReadHelmetsFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,134 DEBUG c.D.ReadHelmetsFromFile [main] List from file[Hemlet{color='green', name='hcvwq23', price=520.0, weight=2250}, Hemlet{color='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,136 DEBUG c.D.ReadJacketFromFile [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,136 DEBUG c.D.ReadJacketFromFile [main] List from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,137 DEBUG m.Jacket [main] List of boots from file[Jacket{levelOfProtection='green', name='hcvwq23', price=520.0, weight=2250}, Jacket{levelOfProtection='3+', name='jvwber1r23', price=750.0, weight=1200}]
+2019-10-28 10:25:08,138 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\Checklist.txt
+2019-10-28 10:25:08,139 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:25:43,038 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\CheckList.txt
+2019-10-28 10:25:43,052 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}, Ammunition{name='jvwber1r23', price=750.0, weight=1200, atribute='3+'}]
+2019-10-28 10:25:43,065 DEBUG c.Choose [main] Choose0Choosed amunAmmunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}
+2019-10-28 10:25:50,174 DEBUG c.D.ReadAmmunicionFromCheckList [main] Path of filesrc\test\resources\clear.txt
+2019-10-28 10:25:50,188 DEBUG c.D.ReadAmmunicionFromCheckList [main] List from file[Ammunition{name='hcvwq23', price=520.0, weight=2250, atribute='green'}]

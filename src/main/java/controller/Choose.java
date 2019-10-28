@@ -56,7 +56,29 @@ public class Choose extends Ammunition {
         }
     }
 
-    public Ammunition chooseAmmunition(List<Ammunition> listOfAmmunition,int q) throws FileNotFoundException {
-        return listOfAmmunition.get(q-1);
+    public Ammunition chooseAmmunition(List<Ammunition> listOfAmmunition,int index, String path) throws FileNotFoundException {
+
+
+        try(FileWriter writer = new FileWriter(path, true))
+        {
+            q=index-1;
+            // запись всей строки
+            String text = (listOfAmmunition.get(q).getName()+" "
+                    +listOfAmmunition.get(q).getPrice()+" "+listOfAmmunition.get(q).getWeight()+" "+listOfAmmunition.get(q).getAtribute());
+            writer.write(String.valueOf(text));
+            // запись по символам
+            writer.append(' ');
+            writer.append('\n');
+            writer.flush();
+        }
+        catch(IOException ex){
+            System.out.println(ex.getMessage());
+        }
+        logger.debug("Choose" +q +"Choosed amun"+listOfAmmunition.get(q));
+        return listOfAmmunition.get(q);
+    }
+    public Ammunition chooseAmmunition(List<Ammunition> listOfAmmunition,int index) throws FileNotFoundException {
+            q=index-1;
+        return listOfAmmunition.get(q);
     }
 }

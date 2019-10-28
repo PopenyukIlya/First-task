@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1cf3f5-9940-48ee-ab61-a2ca3c908c45" name="Default Changelist" comment="" />
+    <list default="true" id="fe1cf3f5-9940-48ee-ab61-a2ca3c908c45" name="Default Changelist" comment="translated msgs in view/clean up">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/appDebug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/appDebug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Choose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Choose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/ChooseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/ChooseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/AmmunitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/AmmunitionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CheckList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CheckList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Clear.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Clear.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gud/task1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -60,6 +68,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\popen\OneDrive\Рабочий стол\gud\Task-1\src\test\resources" />
       <recent name="C:\Users\popen\OneDrive\Рабочий стол\gud\untitled1\src\test\resources" />
       <recent name="C:\Users\popen\OneDrive\Рабочий стол\untitled" />
     </key>
@@ -76,14 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ChooseTest.chooseAmmunitionWithRead">
     <configuration name="All in untitled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmmunitionTest.chooseBoots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AmmunitionTest.sortByPriceBoots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -102,29 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.AmmunitionTest" />
-      <option name="METHOD_NAME" value="chooseBoots" />
+      <option name="METHOD_NAME" value="sortByPriceBoots" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmmunitionTest.sortBoots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.AmmunitionTest" />
-      <option name="METHOD_NAME" value="sortBoots" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumAmmunitionTest.sumAmmunation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +119,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.SumAmmunitionTest" />
-      <option name="METHOD_NAME" value="sumAmmunation" />
+      <option name="MAIN_CLASS_NAME" value="controller.ChooseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChooseTest.chooseAmmunition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.ChooseTest" />
+      <option name="METHOD_NAME" value="chooseAmmunition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChooseTest.chooseAmmunitionWithRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.ChooseTest" />
+      <option name="METHOD_NAME" value="chooseAmmunitionWithRead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ChooseTest.chooseAmmunitionWithRead" />
+        <item itemvalue="JUnit.ChooseTest.chooseAmmunition" />
         <item itemvalue="JUnit.All in untitled" />
-        <item itemvalue="JUnit.AmmunitionTest.chooseBoots" />
-        <item itemvalue="JUnit.AmmunitionTest.sortBoots" />
-        <item itemvalue="JUnit.SumAmmunitionTest.sumAmmunation" />
+        <item itemvalue="JUnit.AmmunitionTest.sortByPriceBoots" />
+        <item itemvalue="JUnit.ChooseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +187,8 @@
       <workItem from="1572201636579" duration="6033000" />
       <workItem from="1572208000856" duration="634000" />
       <workItem from="1572208638934" duration="86000" />
+      <workItem from="1572208761594" duration="245000" />
+      <workItem from="1572245632492" duration="2691000" />
     </task>
     <task id="LOCAL-00001" summary="translated msgs in view/clean up">
       <created>1572208714719</created>

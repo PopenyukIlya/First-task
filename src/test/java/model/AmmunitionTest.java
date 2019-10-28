@@ -113,7 +113,7 @@ public class AmmunitionTest {
         SortAmmunition sortAmmunition =new SortAmmunition();
         Jacket jacket=new Jacket("vasav",120,270,"what ");
         Jacket jacket1=new Jacket("koasflya",10,100,"what ");
-        Jacket jacket2=new Jacket("wora",170,170,"what ");
+        Jacket jacket2=new Jacket("wora",170,170,"what");
         List<Jacket> listOfJackets=new ArrayList<>(4);
         SortAmmunitionByDiapasonOfPrice sortAmmunitionByDiapasonOfPrice=new SortAmmunitionByDiapasonOfPrice();
         listOfJackets.add(jacket);

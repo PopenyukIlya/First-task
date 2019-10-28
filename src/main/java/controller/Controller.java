@@ -49,7 +49,7 @@ public class Controller extends Ammunition {
         if (choice>=0&&choice<=4){
         switch (choice) {
             case 1:
-                chooseHemlet();
+                chooseHelmet();
                 break;
             case 2:
                 chooseJacket();
@@ -74,7 +74,7 @@ public class Controller extends Ammunition {
         if (choice>=0&&choice<=4){
         switch (choice) {
             case 1:
-                sortHemlet();
+                sortHelmet();
                 break;
             case 2:
                 sortJacket();
@@ -98,7 +98,7 @@ public class Controller extends Ammunition {
         if (choice>=0&&choice<=4){
         switch (choice) {
             case 1:
-                sortByPriceHemlet();
+                sortByPriceHelmet();
                 break;
             case 2:
                 sortByPriceJacket();

@@ -4,7 +4,6 @@ import controller.DAO.ReadAmmunicionFromCheckList;
 import model.Ammunition;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.List;

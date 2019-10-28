@@ -1,11 +1,12 @@
 <Configuration status="fatal" strict="true"
                name="XMLConfigTest" packages="org.apache.logging.log4j.test">
     <Filter type="ThresholdFilter" level="trace" />
-
     <Appenders>
+
         <Console name="LogErrorConsole" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
+
         <RollingFile name="LogErrorRollingFile" fileName="logs/appError.log"
                      filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout>
@@ -17,6 +18,7 @@
             </Policies>
             <DefaultRolloverStrategy max="10"/>
         </RollingFile>
+
         <RollingFile name="LogDebugRollingFile" fileName="logs/appDebug.log"
                      filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout>
@@ -28,30 +30,17 @@
             </Policies>
             <DefaultRolloverStrategy max="10"/>
         </RollingFile>
-        <RollingFile name="LogAmmunitionRollingFile" fileName="logs/appAmmunitionInfo.log"
-                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
-            <PatternLayout>
-                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
-            </PatternLayout>
-            <Policies>
-                <TimeBasedTriggeringPolicy  interval = "2" />
-                <SizeBasedTriggeringPolicy size="10 MB"/>
-            </Policies>
-            <DefaultRolloverStrategy max="10"/>
-        </RollingFile>
-
     </Appenders>
 
     <Loggers>
-        <Logger name="Ammunition" level="info" additivity="false">
-            <AppenderRef ref="LogAmmunitionRollingFile"/>
-        </Logger>
         <Logger level="error" additivity="false">
             <AppenderRef ref="LogErrorConsole"/>
             <AppenderRef ref="LogErrorRollingFile"/>
         </Logger>
+
         <Root level="debug">
             <AppenderRef ref="LogDebugRollingFile"/>
         </Root>
+
     </Loggers>
 </Configuration>

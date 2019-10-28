@@ -10,7 +10,7 @@ public class Helmet extends Ammunition {
 
     public List<Helmet> listOfHelmets =new ArrayList<>(4);
     private String color;
-    private String path="src\\main\\resources\\Hemlet.txt";
+    private String path="src\\main\\resources\\Helmet.txt";
     final Logger logger = LogManager.getLogger(Helmet.class);
     public Helmet(String name, double price, int weight, String color)  {
         super(name, price, weight);
@@ -19,15 +19,15 @@ public class Helmet extends Ammunition {
 
     public Helmet()  {         }
 
-    public List<Helmet> readHemlet()  {
-        logger.trace("readHemlet");
+    public List<Helmet> readHelmet()  {
+        logger.trace("readHelmet");
         ReadHelmetsFromFile readHelmetsFromFile =new ReadHelmetsFromFile();
         List<Helmet> listOfHelmets = readHelmetsFromFile.readAmmunitionFromFile(path);
         logger.debug("List of helmets from file"+listOfHelmets);
         return listOfHelmets;
     }
-    public List<Helmet> readHemlet(String path)  {
-        logger.trace("readHemlet for test");
+    public List<Helmet> readHelmet(String path)  {
+        logger.trace("readHelmet for test");
         ReadHelmetsFromFile readHelmetsFromFile =new ReadHelmetsFromFile();
         List<Helmet> listOfHelmets = readHelmetsFromFile.readAmmunitionFromFile(path);
         logger.debug("List of helmets from file"+listOfHelmets);
@@ -36,7 +36,7 @@ public class Helmet extends Ammunition {
 
     @Override
     public String toString() {
-        return "Hemlet{" +
+        return "Helmet{" +
                 "color='" + color + '\'' +
                 ", name='" + name + '\'' +
                 ", price=" + price +

@@ -22,13 +22,13 @@ public class HelmetTest {
     }
 
     @Test
-    public void readHemlet() throws FileNotFoundException {
+    public void readHelmet() throws FileNotFoundException {
         Helmet helmet=new Helmet();
         listOfHelmets1.add(helmet2);
         listOfHelmets1.add(helmet1);
         listOfAmmunition.addAll(listOfHelmets1);
         String actual= String.valueOf(listOfAmmunition);
-        String expected=String.valueOf(helmet.readHemlet(path));
+        String expected=String.valueOf(helmet.readHelmet(path));
         Assert.assertEquals(actual,expected);
     }
 }

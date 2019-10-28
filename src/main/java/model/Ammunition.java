@@ -47,7 +47,7 @@ logger.trace("Initing list of Ammunition");
         Jacket jacket=new Jacket();
         Helmet helmet =new Helmet();
         listOfAmmunition.addAll(boots.readBoots());
-        listOfAmmunition.addAll(helmet.readHemlet());
+        listOfAmmunition.addAll(helmet.readHelmet());
         listOfAmmunition.addAll(jacket.readJacket());
         logger.debug("list Of Ammun" + listOfAmmunition);
 if(listOfAmmunition.size()==0){logger.error("Clear list of all Ammun");}
@@ -82,10 +82,10 @@ if(listOfAmmunition.size()==0){logger.error("Clear list of all Ammun");}
         logger.debug("Choose by list Of Jacket from file" + listOfAmmunition);
         chooseAmmunition(listOfAmmunition);
     }
-    public void chooseHemlet() throws FileNotFoundException {
+    public void chooseHelmet() throws FileNotFoundException {
         logger.trace("Choose Hemlet by list from file");
         Helmet helmet = new Helmet();
-        listOfAmmunition.addAll(helmet.readHemlet());
+        listOfAmmunition.addAll(helmet.readHelmet());
         logger.debug("Choose by list Of Helmet from file" + listOfAmmunition);
         chooseAmmunition(listOfAmmunition);
     }
@@ -104,11 +104,11 @@ if(listOfAmmunition.size()==0){logger.error("Clear list of all Ammun");}
         listOfAmmunition.addAll(jacket.readJacket());
         chooseAmmunition(sortAmmunition.sortAmmunation(listOfAmmunition));
     }
-    public void sortHemlet() throws FileNotFoundException {
+    public void sortHelmet() throws FileNotFoundException {
         logger.trace("sort By weight hemlets");
         Helmet helmet = new Helmet();
         SortAmmunition sortAmmunition =new SortAmmunition();
-        listOfAmmunition.addAll(helmet.readHemlet());
+        listOfAmmunition.addAll(helmet.readHelmet());
         logger.debug("Sort by weight by list Of Helmets from file" + listOfAmmunition);
         chooseAmmunition(sortAmmunition.sortAmmunation(listOfAmmunition));
     }
@@ -118,11 +118,11 @@ if(listOfAmmunition.size()==0){logger.error("Clear list of all Ammun");}
         logger.debug("Sort by diapason of price by list all Ammun from file" + listOfAmmunition);
        chooseAmmunition(sortAmmunation.sortAmmunitionByDiapasonOfPrice(initListOfAmmunition()));
     }
-    public void sortByPriceHemlet() throws FileNotFoundException {
+    public void sortByPriceHelmet() throws FileNotFoundException {
         logger.trace("sort By diapasone of Price Hemlets");
         SortAmmunitionByDiapasonOfPrice sortAmmunation=new SortAmmunitionByDiapasonOfPrice();
         Helmet helmet = new Helmet();
-        listOfAmmunition.addAll(helmet.readHemlet());
+        listOfAmmunition.addAll(helmet.readHelmet());
         logger.debug("Sort by diapason of price by list Of Helmet from file" + listOfAmmunition);
         chooseAmmunition(sortAmmunation.sortAmmunitionByDiapasonOfPrice(listOfAmmunition));
     }

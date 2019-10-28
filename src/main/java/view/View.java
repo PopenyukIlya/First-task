@@ -18,6 +18,7 @@ public class View extends Controller {
     }
 
     public void preMainMenu() throws FileNotFoundException {
+        logger.error("Test started");
         logger.debug("Start app");
         System.out.println("Hi.Can i help you?");
         mainMenu();

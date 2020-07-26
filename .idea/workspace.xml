@@ -2,39 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1cf3f5-9940-48ee-ab61-a2ca3c908c45" name="Default Changelist" comment="translated msgs in view/clean up">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/appAmmunitionInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/appDebug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/appDebug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Choose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Choose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadAmmunicionFromCheckList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadAmmunicionFromCheckList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadBootsFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadBootsFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadHelmetsFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadHelmetsFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadJacketFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DAO/ReadJacketFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SortAmmunition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SortAmmunition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SortAmmunitionByDiapasonOfPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SortAmmunitionByDiapasonOfPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/SumAmmunition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SumAmmunition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Ammunition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Ammunition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Boots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Boots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Helmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Helmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Jacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Jacket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Hemlet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Helmet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Boots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Boots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Helmet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Helmet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Jacket.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Jacket.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/ChooseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/ChooseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadAmmunicionFromCheckListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadAmmunicionFromCheckListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadBootsFromFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadBootsFromFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadHelmetsFromFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadHelmetsFromFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadJacketFromFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/DAO/ReadJacketFromFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/SortAmmunitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/SortAmmunitionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/SumAmmunitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/SumAmmunitionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/AmmunitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/AmmunitionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/BootsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/BootsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/HelmetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HelmetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/JacketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/JacketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/CheckList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CheckList.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Clear.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Clear.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/SumAmmunition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/SumAmmunition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ForChooseCheckList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ForChooseCheckList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Boots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Boots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Helmet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Helmet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Jacket.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Jacket.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Choose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/DAO/ReadAmmunicionFromCheckList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/DAO/ReadBootsFromFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/DAO/ReadHelmetsFromFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/DAO/ReadJacketFromFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/SortAmmunition$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/SortAmmunition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/SortAmmunitionByDiapasonOfPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/SumAmmunition.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Ammunition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Boots.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Helmet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Jacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Clear.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Clear.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ForChooseCheckList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ForChooseCheckList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/ChooseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/DAO/ReadAmmunicionFromCheckListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/DAO/ReadBootsFromFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/DAO/ReadHelmetsFromFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/DAO/ReadJacketFromFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/SortAmmunitionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/SumAmmunitionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/AmmunitionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/BootsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/HelmetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/JacketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\popen\Desktop\First-task-master\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -49,14 +118,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1SgvW0ZlGBCTheLHZM23S1nqvBf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gg/task11" />
+    <property name="last_opened_file_path" value="$USER_HOME$/gg/task11" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -81,18 +158,6 @@
       <recent name="C:\Users\popen\OneDrive\Рабочий стол\untitled" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -105,22 +170,6 @@
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AmmunitionTest.sortByPriceBoots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.AmmunitionTest" />
-      <option name="METHOD_NAME" value="sortByPriceBoots" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,13 +206,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="controller in untitled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in untitled" />
+        <item itemvalue="JUnit.controller in untitled" />
         <item itemvalue="JUnit.ChooseTest.chooseAmmunitionWithRead" />
         <item itemvalue="JUnit.ChooseTest.chooseAmmunition" />
-        <item itemvalue="JUnit.All in untitled" />
-        <item itemvalue="JUnit.AmmunitionTest.sortByPriceBoots" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +255,8 @@
       <workItem from="1572256212127" duration="389000" />
       <workItem from="1572268313535" duration="898000" />
       <workItem from="1572271316754" duration="334000" />
+      <workItem from="1595750394841" duration="6158000" />
+      <workItem from="1595757313754" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="translated msgs in view/clean up">
       <created>1572208714719</created>
@@ -222,5 +287,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="translated msgs in view/clean up" />
     <option name="LAST_COMMIT_MESSAGE" value="translated msgs in view/clean up" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="-992" key="#Project_Structure" timestamp="1595757494909">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="451" y="-992" key="#Project_Structure/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595757494909" />
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1595750626700" />
+    <state x="773" y="-700" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1595757413024">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="773" y="-700" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595757413024" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1595750433239" />
+    <state x="740" y="-819" key="FileChooserDialogImpl" timestamp="1595755935219">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="740" y="-819" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595755935219" />
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1595757231074">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595757231074" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1595750816454" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1595757231074">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595757231074" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1595750816454" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1595757231073">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595757231073" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1595750816454" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1595757231074">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595757231074" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1595750816454" />
+    <state x="346" y="-1012" key="SettingsEditor" timestamp="1595757512058">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="346" y="-1012" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1595757512058" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1595750650361" />
   </component>
 </project>

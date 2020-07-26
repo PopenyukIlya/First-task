@@ -1,11 +1,12 @@
 package controller;
 
 import controller.DAO.ReadAmmunicionFromCheckList;
+import controller.Service.AmmunitionService;
 import model.Ammunition;
 import view.View;
 import java.io.FileNotFoundException;
 
-public class Controller extends Ammunition {
+public class Controller extends AmmunitionService {
 
     public Controller() {
     }

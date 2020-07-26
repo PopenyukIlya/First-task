@@ -4,6 +4,7 @@ import model.Boots;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ReadBootsFromFile extends Boots {
@@ -13,6 +14,8 @@ public class ReadBootsFromFile extends Boots {
     final Logger logger = LogManager.getLogger(ReadBootsFromFile.class);
 
     public List<Boots> readAmmunitionFromFile(String path) {
+        List<Boots> listOfBoots=new ArrayList<>(4);
+
         listOfBoots.clear();
         logger.trace("Read boots From File");
         logger.debug("Path of file"+path);

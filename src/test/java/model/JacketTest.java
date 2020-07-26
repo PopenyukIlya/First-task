@@ -1,6 +1,7 @@
 package model;
 
 import controller.DAO.ReadAmmunicionFromCheckList;
+import controller.Service.JacketService;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -26,7 +27,7 @@ public class JacketTest {
 
     @Test
     public void readJacket() throws FileNotFoundException {
-       Jacket jacket=new Jacket();
+       JacketService jacket=new JacketService();
 
         listOfJackets1.add(ammunition);
         listOfJackets1.add(ammunition1);

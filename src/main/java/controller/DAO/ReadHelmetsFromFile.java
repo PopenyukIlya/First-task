@@ -1,9 +1,11 @@
 package controller.DAO;
 
+import model.Boots;
 import model.Helmet;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ReadHelmetsFromFile extends Helmet {
@@ -12,6 +14,7 @@ public class ReadHelmetsFromFile extends Helmet {
     }
     final Logger logger = LogManager.getLogger(ReadHelmetsFromFile.class);
     public List<Helmet> readAmmunitionFromFile(String path) {
+        List<Helmet> listOfHelmets=new ArrayList<>(4);
         listOfHelmets.clear();
         logger.trace("read Helmets From File");
         logger.debug("Path of file"+path);

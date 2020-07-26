@@ -1,6 +1,7 @@
 package model;
 
 import controller.DAO.ReadAmmunicionFromCheckList;
+import controller.Service.BootsService;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -26,7 +27,7 @@ public class BootsTest {
 
     @Test
     public void readBoots() throws FileNotFoundException {
-Boots boots=new Boots();
+BootsService boots=new BootsService();
 
         listOfBoots1.add(ammunition);
         listOfBoots1.add(ammunition1);

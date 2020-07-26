@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.util.List;
 
 
-public class SumAmmunition extends ReadAmmunicionFromCheckList {
+public  class SumAmmunition extends ReadAmmunicionFromCheckList {
     private String path="src\\main\\resources\\Checklist.txt";
     private double sum=0;
 
